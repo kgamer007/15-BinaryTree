@@ -1,0 +1,34 @@
+{
+  "name": "15-BinaryTree",
+  "version": "1.0.0",
+  "description": "![cf](http://i.imgur.com/7v5ASc8.png) Lab 15- Binary Tree Data Structure\r ====\r ## To Submit this Assignment\r * Read this document entirely and estimate how long this assignment will take.\r * Work in a fork of this repository\r * Work in a branch on your fork called `lab-15`\r * Set up Travis CI on your repo\r * Create a pull request from your `lab-15` branch to your master branch\r * Submit on canvas a question and observation, your original estimate, how long you spent, and a link to your pull request",
+  "main": "index.js",
+  "scripts": {
+    "dev-start": "nodemon index.js",
+    "test": "eslint . && jest --coverage",
+    "testWatch": "jest --coverage --watchAll",
+    "test-nolint": "jest --coverage --detectOpenHandles --forceExit --runInBand",
+    "lint": "eslint .",
+    "dbon": "mkdir -p ./db && mongod --dbpath ./db",
+    "dboff": "killall mongod",
+    "build": "babel src -d build",
+    "start": "npm run build && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgamer007/15-BinaryTree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgamer007/15-BinaryTree/issues"
+  },
+  "homepage": "https://github.com/kgamer007/15-BinaryTree#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "http-errors": "^1.6.3",
+    "mongoose": "^5.1.7"
+  }
+}
