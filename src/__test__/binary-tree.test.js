@@ -1,5 +1,3 @@
-'use strict';
-
 import binaryTree from '../model/binary-tree';
 import { preOrderTraversal } from '../lib/traversals';
 

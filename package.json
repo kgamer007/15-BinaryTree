@@ -1,5 +1,5 @@
 {
-  "name": "15-BinaryTree",
+  "name": "15-binary-tree",
   "version": "1.0.0",
   "description": "![cf](http://i.imgur.com/7v5ASc8.png) Lab 15- Binary Tree Data Structure\r ====\r ## To Submit this Assignment\r * Read this document entirely and estimate how long this assignment will take.\r * Work in a fork of this repository\r * Work in a branch on your fork called `lab-15`\r * Set up Travis CI on your repo\r * Create a pull request from your `lab-15` branch to your master branch\r * Submit on canvas a question and observation, your original estimate, how long you spent, and a link to your pull request",
   "main": "index.js",
@@ -30,5 +30,21 @@
     "express": "^4.16.3",
     "http-errors": "^1.6.3",
     "mongoose": "^5.1.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "dotenv": "^6.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-react": "^7.9.1",
+    "faker": "^4.1.0",
+    "jest": "^23.1.0",
+    "supertest": "^3.1.0",
+    "winston": "^3.0.0"
   }
 }
